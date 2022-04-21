@@ -50,3 +50,42 @@ h1:hover{
     padding: 20px;
     background-color: brown;
 }
+.animacion{
+    text-align: center;
+    color: aqua;
+    animation-name: animacion;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+@keyframes animacion{
+    0%{
+        color: blue;
+        font-size: 32px;
+    }
+    25%{
+        color: brown;
+        font-size: impact,;
+        font-size: 100px;
+    }
+    50%{
+        color:chartreuse;
+        transform: rotate(35deg);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    75%{
+        color: cornflowerblue;
+        font-size: 5px;
+    }
+    100%{
+        color:coral;
+        font-size: 150px;
+        background-color: chocolate;
+    }
+
+
+
+
+}
